@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@layer base {
+  body {
+    @apply font-['Poppins'] bg-[#0F2854] text-[#FFFFFF] antialiased;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
